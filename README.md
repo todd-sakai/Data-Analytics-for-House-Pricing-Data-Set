@@ -11,5 +11,21 @@ For this project I built regression models that estimate home sale prices from 2
 | Ridge, 11 features | 0.648 | Held-out test |
 | Ridge, 11 features, degree-2 polynomial | 0.700 | Held-out test |
 
+## Topics Covered
+
+- Data cleaning: dropping columns and filling missing values with the mean
+- Exploratory data analysis: boxplots, regression plots and correlation
+- Simple and multiple linear regression
+- Polynomial features and feature scaling in a scikit-learn pipeline
+- Ridge regression (regularization)
+- Train/test split and model evaluation with R²
+
+## Python Libraries Used
+
+- `pandas`: loading and cleaning the data
+- `NumPy`: numeric operations
+- `matplotlib` and `seaborn`: charts
+- `scikit-learn`: `LinearRegression`, `Ridge`, `PolynomialFeatures`, `StandardScaler`, `Pipeline` and `train_test_split`
+
 Files:
 - `king_county_house_prices.ipynb`: Code and outputs
